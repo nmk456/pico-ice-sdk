@@ -33,6 +33,7 @@ target_link_libraries(pico_ice_sdk INTERFACE
     hardware_spi
     hardware_dma
     hardware_uart
+    hardware_irq
     pico_stdlib
     )
 pico_generate_pio_header(pico_ice_sdk

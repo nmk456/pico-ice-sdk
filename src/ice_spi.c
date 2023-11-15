@@ -30,6 +30,7 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "hardware/dma.h"
+#include "hardware/irq.h"
 #include "boards/pico_ice.h"
 #include "ice_spi.h"
 
